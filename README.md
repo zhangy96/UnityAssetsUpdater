@@ -3,7 +3,7 @@
 `Unity3d`资源热更器，基于`Cocos2dx AssetsManagerEx`，用法与`Cocos2dx AssetsManagerEx`一致
 
 ##Usage:
-```
+```cs
 private void Start()
 {
     var updater = new AssetsUpdater(Application.streamingAssetsPath + "/project.manifest", Application.persistentDataPath + "/");
